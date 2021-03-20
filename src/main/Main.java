@@ -25,7 +25,7 @@ public class Main {
             int result = toSubtraction.subtraction(toArraysSubtraction(inputInfo));
             if (inputInfo.contains("I") || inputInfo.contains("X") || inputInfo.contains("V")){
                 ArabToRome numberRome = new ArabToRome();
-                System.out.println(numberRome.toRomeNumberTen(toSubtraction.subtraction(toArraysDivision(inputInfo))));
+                System.out.println(numberRome.toRomeNumberTen(toSubtraction.subtraction(toArraysSubtraction(inputInfo))));
             } else {
                 System.out.println(result);
             }

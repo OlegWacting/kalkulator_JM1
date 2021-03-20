@@ -34,6 +34,9 @@ public class ArabToRome {
             default -> "Отсутствуют данные";
         };
         romeNumber = romeDes + romeOne;
+        if (number == 0){
+            romeNumber = "0";
+        }
         return romeNumber;
     }
 }
